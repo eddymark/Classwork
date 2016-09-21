@@ -14,14 +14,14 @@ public class DoWhile {
 			System.out.println("Hello world ");
 		}while(flag);
 */
-		
-	/*	(3) do expression
+/*		
+		(3) do expression
 		int i=0;
 		do {
 			System.out.println("hellow world");
-		}while(i++<10);*/
+		}while(i++<10);
 		
-/*		//(4) multiple conditions    will print only once because i++ is not true 
+		//(4) multiple conditions    will print only once because i++ is not true 
 		
 	int i=0;
 		boolean flag =(i==0);

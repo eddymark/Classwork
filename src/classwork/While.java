@@ -37,7 +37,7 @@ public class While {
 		
 //		(5) nested loop
 		boolean flag = false;
-		int i=o;
+		int i=0;
 		while (i<10||flag){
 			if (!flag){
 				System.out.println("hello");

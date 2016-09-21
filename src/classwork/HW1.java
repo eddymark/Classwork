@@ -29,7 +29,7 @@ public class HW1 {
 			System.out.println(" number2 number3 number1 " + num2 + " " + num3 + " " + num1);
 		}
 		if (num3 < num1 && num2 < num1) {
-			System.out.println(" number3 number2 number1 " +num3 + " " + num2 + " " + num1);
+			System.out.println(" number3 number2 number1 " + num3 + " " + num2 + " " + num1);
 		}
 		if (num3 < num1 && num2 > num1) {
 			System.out.println(" number3 number1 number2 " + num3 + " " + num1 + " " + num2);
