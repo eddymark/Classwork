@@ -7,6 +7,7 @@ public class Favorite {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
+		
 
 		String favColor = "";
 		String favFood = "";
@@ -27,7 +28,9 @@ public class Favorite {
 
 		System.out.printf("I had a dream that %s ate a %s and said it tasted like %s", fName, favColor, favAnimal,
 				favFood);
-
+		
+		  scanner.close();
 	}
+	  
 
 }
