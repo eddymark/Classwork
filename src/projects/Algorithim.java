@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Algorithim {
 
 	public static void main(String[] args) {
-		String sCode = "12345";// secret code
+		String sCode = "90865";// secret code
 		int totalGuesses = 1;// initilization
 		Scanner keyboard = new Scanner(System.in);// scanner
 		System.out.println("Enter your 5 digit guess");// enters the secret
