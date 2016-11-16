@@ -22,8 +22,12 @@ public class IntroGui extends JFrame {
 		JButton blueButton = new JButton("blue");
 		//CREATES A BUTTON WITH A TITLE 
 		
-		container.add(redButton);
-		container.add(blueButton);
+		panel.add(blueButton);
+		panel.add(redButton);
+		//adds the buttons into the middle 
+		
+		container.add(panel);
+		
 		//this adds a component
 		
 		setSize(400,400);
