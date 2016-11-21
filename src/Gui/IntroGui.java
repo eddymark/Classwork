@@ -21,7 +21,7 @@ public class IntroGui extends JFrame implements ActionListener{
 	public IntroGui(){
 		
 		Container container= getContentPane();
-		//i want the gray area so that i can usse the variable to fill things i named it container
+		//i want the gray area so that i can use the variable to fill things i named it container
 	
 		JPanel panel = new JPanel();
 		//adding another container
