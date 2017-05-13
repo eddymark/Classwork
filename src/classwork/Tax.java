@@ -40,6 +40,7 @@ public class Tax {
 	private static double roundToNearestPenny(double price)
 
 	{
+		return price;
 		
 	}
 

@@ -1,0 +1,3 @@
+This is the line i want to fix.How do i do that
+This is also a line i would like to fix?Hopefully it makes the h capital
+This is the last line i would like to test!This should become a capital letter

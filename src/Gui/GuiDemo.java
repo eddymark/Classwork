@@ -47,6 +47,7 @@ public class GuiDemo extends JFrame implements ActionListener{
 		String event = e.getActionCommand();
 		
 		if (event.equals("Submit")){
+			
 			System.out.println("Submit Button clicked");
 		}else if(event.equals("Cancel")){
 			System.out.println("cancel Button was Clicked");

@@ -12,13 +12,14 @@ public class Hw {
 	public static void main(String[] args) {
 
 		try {
+		//creates two Scanner objects 	
 			Scanner input = new Scanner(System.in);
 			Scanner input2 = new Scanner(System.in);
 
 			System.out.println("Enter the name of the file that you want to open: ");
 			try {
-				File file = new File(input.nextLine());
-				input = new Scanner(file);
+				File file = new File(input.nextLine()); //this gets the file we want to read
+				input = new Scanner(file); //uses the file as an import paramaeter
 				System.out.println("What name do you like for your copy ");
 
 				try {
@@ -39,18 +40,19 @@ public class Hw {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+			
 
 			} catch (FileNotFoundException e) {
 				System.err.println("Sorry the file wasn't found");
-				// f.printStackTrace();
+				 e.printStackTrace();
 			} catch (IOException e) {
 				System.err.println("Problem getting file");
 			}
-
+		}
+		finally{
 			
-	
 		}
 	}
 }
-
-
+				
+	
